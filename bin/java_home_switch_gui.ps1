@@ -45,8 +45,8 @@ foreach ($version in $javaVersions) {
 
 # Add DoubleClick event handler to apply change on double-click
 $listBox.Add_DoubleClick({
-    ApplyJavaHomeChange
-})
+        ApplyJavaHomeChange
+    })
 
 $form.Controls.Add($listBox)
 
@@ -56,8 +56,8 @@ $applyButton.Location = New-Object System.Drawing.Point(10, 120)
 $applyButton.Size = New-Object System.Drawing.Size(75, 23)
 $applyButton.Text = 'Apply'
 $applyButton.Add_Click({
-    ApplyJavaHomeChange
-})
+        ApplyJavaHomeChange
+    })
 
 $form.Controls.Add($applyButton)
 
